@@ -8,7 +8,7 @@ expression_parser = Mutant::Expression::Parser.new [
   Mutant::Expression::Namespace::Recursive,
 ]
 
-string = 'invalid'
+string = 'M::N'
 
 binding.pry
 expression = expression_parser.call string
